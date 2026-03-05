@@ -1,6 +1,6 @@
 # PySpark Assignment
 
-## Questions Covered
+## Questions Solved
 
 ### Question 1 – Customer Purchase Analysis
 - Create DataFrames with custom schema
