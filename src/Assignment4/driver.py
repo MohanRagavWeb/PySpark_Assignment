@@ -11,7 +11,7 @@ spark = SparkSession.builder.appName("JSON_Flatten_Explode").getOrCreate()
 # -------------------------------
 # 2️⃣ Read JSON
 # -------------------------------
-df = spark.read.option("multiLine", True).json(r"C:\Users\sheeb\Downloads\nested_json_file.json")
+df = spark.read.option("multiLine", True).json(r"C:\Users\mohan\Downloads\nested_json_file.json")
 
 # -------------------------------
 # 3️⃣ Flatten 'properties' struct

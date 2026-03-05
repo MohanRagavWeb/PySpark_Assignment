@@ -13,7 +13,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 #Read JSON file provided in the attachment using the dynamic function
-df = spark.read.option("multiLine", True).json(r"C:\Users\sheeb\Downloads\nested_json_file.json")
+df = spark.read.option("multiLine", True).json(r"C:\Users\mohan\Downloads\nested_json_file.json")
 df.show(truncate=False)
 df.printSchema()
 

@@ -93,8 +93,8 @@ emp_lower.show()
 
 #create 2 external tables with parquet, CSV format with the
 # same name database name, and 2 different table names as CSV and parquet format.
-csv_path = "D:/pyspark_assignment/output/employee_csv"
-parquet_path = "D:/pyspark_assignment/output/employee_parquet"
+csv_path = "F:/pyspark_assignment/output/employee_csv"
+parquet_path = "F:/pyspark_assignment/output/employee_parquet"
 # Save as CSV
 emp_lower.write.mode("overwrite").option("header", True).csv(csv_path)
 # Save as Parquet
